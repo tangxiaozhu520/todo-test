@@ -30,6 +30,7 @@ export default defineConfig([
     rules: {
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
       quotes: ['error', 'double'],
+      'no-console': 'warn',
       // 导入不存在的文件/模块 → 报错
       'import-x/no-unresolved': 'error',
       // 导入的名称在模块中不存在 → 报错
