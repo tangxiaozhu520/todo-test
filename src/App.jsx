@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="app">
       <h1>📝 Todo List</h1>
-      <p>请天天开心哦 </p>
+      <p>"请天天开心哦" </p>
       <div className="todo-container">
         <TodoInput />
         <TodoList />
